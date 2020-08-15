@@ -1,0 +1,33 @@
+{
+   "mysql":{
+      "server":"localhost",
+      "user":"root",
+      "password":"123",
+      "database":"sensors",
+      "port":3306
+   },
+   "ssh":{
+       "server":"192.168.0.43",
+       "user":"pi",
+       "port":22,
+       "password":"raspberry"
+   },
+   "charts":{
+       "style":"seaborn",
+       "xfig_size":15,
+       "yfig_size":8,
+       "heat_index_coef":{
+           "c1" : 0.363445176,
+           "c2" : 0.988622465,
+           "c3" : 4.777114035,
+           "c4" : -0.114037667,
+           "c5" : -0.000850208,
+           "c6" : -0.020716198,
+           "c7" : 0.000687678,
+           "c8" : 0.000274954,
+           "c9" : 0
+           }
+   }
+}
+
+
