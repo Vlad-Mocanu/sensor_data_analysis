@@ -12,7 +12,17 @@
        "port":22,
        "password":"raspberry"
    },
+   "data":{
+       "min_indoor_temp":15,
+       "max_indoor_temp":40,
+       "min_humidity":20,
+       "max_humidity":100,
+       "min_pressure":900,
+       "max_pressure":1100
+    },
    "charts":{
+       "start_report_year":2016,
+       "end_report_year":2019,
        "style":"seaborn",
        "xfig_size":15,
        "yfig_size":8,
@@ -29,5 +39,3 @@
            }
    }
 }
-
-
